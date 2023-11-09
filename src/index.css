@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* .l.active{
+  background: white;
+  color: black;
+} */
+
+.active {
+  @apply text-orangeAccent rounded-lg md:text-white md:bg-orangeAccent duration-300
+}
+
+main .active{
+ @apply bg-orangeAccent text-white
+}
